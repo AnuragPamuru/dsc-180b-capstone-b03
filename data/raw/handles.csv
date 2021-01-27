@@ -1,101 +1,101 @@
-Name,Handle
-AK Lisa Murkowski ,lisamurkowski
-AK Dan Sullivan ,SenDanSullivan
-AL Doug Jones ,SenDougJones
-AL Richard C. Shelby ,SenShelby
-AR John Boozman ,JohnBoozman
-AR Tom Cotton ,SenTomCotton
-AZ Martha McSally ,SenMcSallyAZ
-AZ Kyrsten Sinema ,SenatorSinema
-CA Dianne Feinstein ,SenFeinstein
-CA Kamala D. Harris ,KamalaHarris
-CO Michael F. Bennet ,SenatorBennet
-CO Cory Gardner ,SenCoryGardner
-CT Richard Blumenthal ,SenBlumenthal
-CT Christopher Murphy ,SenMurphyOffice
-DE Thomas R. Carper ,SenatorCarper
-DE Christopher A. Coons ,ChrisCoons
-FL Marco Rubio ,SenRubioPress
-FL Rick Scott ,SenRickScott
-GA Johnny Isakson ,SenatorIsakson
-GA David Perdue ,sendavidperdue
-HI Mazie K. Hirono ,maziehirono
-HI Brian Schatz ,SenBrianSchatz
-IA Joni Ernst ,SenJoniErnst
-IA Chuck Grassley ,ChuckGrassley
-ID Mike Crapo ,MikeCrapo
-ID James E. Risch ,SenatorRisch
-IL Tammy Duckworth ,SenDuckworth
-IL Richard J. Durbin ,SenatorDurbin
-IN Mike Braun ,SenatorBraun
-IN Todd Young ,SenToddYoung
-KS Jerry Moran ,JerryMoran
-KS Pat Roberts ,SenPatRoberts
-KY Mitch McConnell ,LeaderMcConnell
-KY Rand Paul ,RandPaul
-LA Bill Cassidy ,SenBillCassidy
-LA John Kennedy ,SenJohnKennedy
-MA Edward J. Markey ,SenMarkey
-MA Elizabeth Warren ,SenWarren
-MD Benjamin L. Cardin ,SenatorCardin
-MD Chris Van Hollen ,ChrisVanHollen
-ME Susan M. Collins ,SenatorCollins
-ME Angus S. King Jr. ,SenAngusKing
-MI Gary C. Peters ,SenGaryPeters
-MI Debbie Stabenow ,SenStabenow
-MN Amy Klobuchar ,SenAmyKlobuchar
-MN Tina Smith ,SenTinaSmith
-MO Roy Blunt ,RoyBlunt
-MO Josh Hawley ,SenHawleyPress
-MS Cindy Hyde-Smith ,SenHydeSmith
-MS Roger F. Wicker ,SenatorWicker
-MT Steve Daines ,SteveDaines
-MT Jon Tester ,SenatorTester
-NC Richard Burr ,SenatorBurr
-NC Thom Tillis ,SenThomTillis
-ND Kevin Cramer ,SenKevinCramer
-ND John Hoeven ,SenJohnHoeven
-NE Deb Fischer ,SenatorFischer
-NE Ben Sasse ,SenSasse
-NH Margaret Wood Hassan ,SenatorHassan
-NH Jeanne Shaheen ,SenatorShaheen
-NJ Cory A. Booker ,SenBooker
-NJ Robert Menendez ,SenatorMenendez
-NM Martin Heinrich ,MartinHeinrich
-NM Tom Udall ,SenatorTomUdall
-NV Catherine Cortez Masto ,SenCortezMasto
-NV Jacky Rosen ,SenJackyRosen
-NY Kirsten E. Gillibrand ,gillibrandny
-NY Charles E. Schumer ,chuckschumer
-OH Sherrod Brown ,SenSherrodBrown
-OH Rob Portman ,senrobportman
-OK James M. Inhofe ,JimInhofe
-OK James Lankford ,SenatorLankford
-OR Jeff Merkley ,SenJeffMerkley
-OR Ron Wyden ,RonWyden
-PA Robert P. Casey Jr. ,SenBobCasey
-PA Patrick J. Toomey ,SenToomey
-RI Jack Reed ,SenJackReed
-RI Sheldon Whitehouse ,SenWhitehouse
-SC Lindsey Graham ,LindseyGrahamSC
-SC Tim Scott ,SenatorTimScott
-SD Mike Rounds ,SenatorRounds
-SD John Thune ,SenJohnThune
-TN Lamar Alexander ,SenAlexander
-TN Marsha Blackburn ,MarshaBlackburn
-TX John Cornyn ,JohnCornyn
-TX Ted Cruz ,SenTedCruz
-UT Mike Lee ,SenMikeLee
-UT Mitt Romney ,SenatorRomney
-VA Time Kaine ,timkaine
-VA Mark R. Warner ,MarkWarner
-VT Patrick J. Leahy ,SenatorLeahy
-VT Bernard Sanders ,SenSanders
-WA Maria Cantwell ,SenatorCantwell
-WA Patty Murray ,PattyMurray
-WI Tammy Baldwin ,SenatorBaldwin
-WI Ron Johnson ,SenRonJohnson
-WV Shelley Moore Capito ,SenCapito
-WV Joe Manchin III ,Sen_JoeManchin
-WY John Barrasso ,SenJohnBarrasso
-WY Michael B. Enzi ,SenatorEnzi 
+Name,Handle,Party
+AK Lisa Murkowski ,lisamurkowski,R
+AK Dan Sullivan ,SenDanSullivan,R
+AL Doug Jones ,SenDougJones,D
+AL Richard C. Shelby ,SenShelby,R
+AR John Boozman ,JohnBoozman,R
+AR Tom Cotton ,SenTomCotton,R
+AZ Martha McSally ,SenMcSallyAZ,R
+AZ Kyrsten Sinema ,SenatorSinema,D
+CA Dianne Feinstein ,SenFeinstein,D
+CA Kamala D. Harris ,KamalaHarris,D
+CO Michael F. Bennet ,SenatorBennet,D
+CO Cory Gardner ,SenCoryGardner,R
+CT Richard Blumenthal ,SenBlumenthal,D
+CT Christopher Murphy ,SenMurphyOffice,D
+DE Thomas R. Carper ,SenatorCarper,D
+DE Christopher A. Coons ,ChrisCoons,D
+FL Marco Rubio ,SenRubioPress,R
+FL Rick Scott ,SenRickScott,R
+GA Johnny Isakson ,SenatorIsakson,R
+GA David Perdue ,sendavidperdue,R
+HI Mazie K. Hirono ,maziehirono,D
+HI Brian Schatz ,SenBrianSchatz,D
+IA Joni Ernst ,SenJoniErnst,R
+IA Chuck Grassley ,ChuckGrassley,R
+ID Mike Crapo ,MikeCrapo,R
+ID James E. Risch ,SenatorRisch,R
+IL Tammy Duckworth ,SenDuckworth,D
+IL Richard J. Durbin ,SenatorDurbin,D
+IN Mike Braun ,SenatorBraun,R
+IN Todd Young ,SenToddYoung,R
+KS Jerry Moran ,JerryMoran,R
+KS Pat Roberts ,SenPatRoberts,R
+KY Mitch McConnell ,LeaderMcConnell,R
+KY Rand Paul ,RandPaul,R
+LA Bill Cassidy ,SenBillCassidy,R
+LA John Kennedy ,SenJohnKennedy,R
+MA Edward J. Markey ,SenMarkey,D
+MA Elizabeth Warren ,SenWarren,D
+MD Benjamin L. Cardin ,SenatorCardin,D
+MD Chris Van Hollen ,ChrisVanHollen,D
+ME Susan M. Collins ,SenatorCollins,I
+ME Angus S. King Jr. ,SenAngusKing,R
+MI Gary C. Peters ,SenGaryPeters,D
+MI Debbie Stabenow ,SenStabenow,D
+MN Amy Klobuchar ,SenAmyKlobuchar,D
+MN Tina Smith ,SenTinaSmith,D
+MO Roy Blunt ,RoyBlunt,R
+MO Josh Hawley ,SenHawleyPress,R
+MS Cindy Hyde-Smith ,SenHydeSmith,R
+MS Roger F. Wicker ,SenatorWicker,R
+MT Steve Daines ,SteveDaines,R
+MT Jon Tester ,SenatorTester,D
+NC Richard Burr ,SenatorBurr,R
+NC Thom Tillis ,SenThomTillis,R
+ND Kevin Cramer ,SenKevinCramer,R
+ND John Hoeven ,SenJohnHoeven,R
+NE Deb Fischer ,SenatorFischer,R
+NE Ben Sasse ,SenSasse,R
+NH Margaret Wood Hassan ,SenatorHassan,D
+NH Jeanne Shaheen ,SenatorShaheen,D
+NJ Cory A. Booker ,SenBooker,D
+NJ Robert Menendez ,SenatorMenendez,D
+NM Martin Heinrich ,MartinHeinrich,D
+NM Tom Udall ,SenatorTomUdall,D
+NV Catherine Cortez Masto ,SenCortezMasto,D
+NV Jacky Rosen ,SenJackyRosen,D
+NY Kirsten E. Gillibrand ,gillibrandny,D
+NY Charles E. Schumer ,SenSchumer,D
+OH Sherrod Brown ,SenSherrodBrown,D
+OH Rob Portman ,senrobportman,R
+OK James M. Inhofe ,JimInhofe,R
+OK James Lankford ,SenatorLankford,R
+OR Jeff Merkley ,SenJeffMerkley,D
+OR Ron Wyden ,RonWyden,D
+PA Robert P. Casey Jr. ,SenBobCasey,D
+PA Patrick J. Toomey ,SenToomey,R
+RI Jack Reed ,SenJackReed,D
+RI Sheldon Whitehouse ,SenWhitehouse,D
+SC Lindsey Graham ,LindseyGrahamSC,R
+SC Tim Scott ,SenatorTimScott,R
+SD Mike Rounds ,SenatorRounds,R
+SD John Thune ,SenJohnThune,R
+TN Lamar Alexander ,SenAlexander,R
+TN Marsha Blackburn ,MarshaBlackburn,R
+TX John Cornyn ,JohnCornyn,R
+TX Ted Cruz ,SenTedCruz,R
+UT Mike Lee ,SenMikeLee,R
+UT Mitt Romney ,SenatorRomney,R
+VA Time Kaine ,timkaine,D
+VA Mark R. Warner ,MarkWarner,D
+VT Patrick J. Leahy ,SenatorLeahy,D
+VT Bernard Sanders ,SenSanders,D
+WA Maria Cantwell ,SenatorCantwell,D
+WA Patty Murray ,PattyMurray,D
+WI Tammy Baldwin ,SenatorBaldwin,D
+WI Ron Johnson ,SenRonJohnson,R
+WV Shelley Moore Capito ,SenCapito,R
+WV Joe Manchin III ,Sen_JoeManchin,D
+WY John Barrasso ,SenJohnBarrasso,R
+WY Michael B. Enzi ,SenatorEnzi,R
