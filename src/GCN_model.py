@@ -8,7 +8,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 class GCN_N_layer(nn.Module):
-    def __init__(self, A, N=0, F = 79, class_number=7, hidden_neurons=200):
+    #The whole function is from DSC180A Group02 which is contributed by Xinrui Zhan, Yimei Zhao and Shang Li
+    def __init__(self, A, N=0, F = 1433, class_number=7, hidden_neurons=200):
         super(GCN_N_layer, self).__init__()
         self.A = A
         self.class_number = class_number
@@ -16,7 +17,7 @@ class GCN_N_layer(nn.Module):
         self.hidden = nn.Linear(hidden_neurons, hidden_neurons, bias=True)
         self.fc1 = nn.Linear(F, hidden_neurons, bias=True)
         self.relu = nn.ReLU()
-        self.fc2 = nn.Linear(200, self.class_number, bias=True)
+        self.fc2 = nn.Linear(hidden_neurons, self.class_number, bias=True)
 
     def forward(self, x):
         # training on full x, not batch
@@ -27,7 +28,7 @@ class GCN_N_layer(nn.Module):
         #print(A.shape)
         #print(self.X.shape)
         #print(A.dtype, self.X.dtype, x.dtype)
-        x = torch.matmul(self.A, x)
+        # x = torch.matmul(self.A, x)
         x = self.fc1(x)
         x = self.relu(x)
         for i in range(self.N):
@@ -38,7 +39,7 @@ class GCN_N_layer(nn.Module):
         return x
 
 class n_hidden_GCN():
-    def __init__(self, A, X, y, device="cuda", N=0, F=1433, class_number = 7, hidden_neurons=200, self_weight=10, val_size=0.3):
+    def __init__(self, A, X, y, device="cuda", N=0, F=79, class_number = 7, hidden_neurons=200, self_weight=10, val_size=0.3):
         self.device = torch.device(device)
         le = preprocessing.LabelEncoder()
         le.fit(y)
@@ -103,7 +104,7 @@ class n_hidden_GCN():
         accs = {'acc': acc}
         return accs
     
-    def draw_cora(self):
+    def visualization(self):
         self.model.eval()
         output = self.model(self.X)
         pred = output.argmax(dim=1, keepdim=True)
