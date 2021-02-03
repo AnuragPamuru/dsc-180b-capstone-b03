@@ -13,6 +13,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 class LPA_GCN_layer(nn.Module):
+    #The whole function is from DSC180A Group02 which is contributed by Xinrui Zhan, Yimei Zhao and Shang Li
     def __init__(self, A, F, O, len_walk, bias=True):
         super(LPA_GCN_layer, self).__init__()
         self.F = F
