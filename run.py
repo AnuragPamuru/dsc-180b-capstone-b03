@@ -1,7 +1,7 @@
 import json
 import argparse
 from src.data_loader import data_loader
-from src.n_GCN import n_hidden_GCN
+from src.GCN_model import n_hidden_GCN
 import pandas as pd
 import numpy as np
 import networkx as nx
@@ -60,8 +60,8 @@ def main():
         hist = model.train_model()
     else:
         if args.dataset == 'data1':
-            loader = data_loader("../data/voting_features.csv", "../data/edges.csv")
-            X, y, A = loader.get_train()
+            loader = data_loader("data/voting_features.csv", "data/edges.csv")
+            X, y, A = loader.get_data()
             if args.model == 'n_GCN':
                 model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size)
                 hist = model.train_epoch(epochs=args.epochs, lr=args.lr)
@@ -79,8 +79,8 @@ def main():
                 hist = model.train_epoch(epochs = args.epochs, lr=args.lr)
     with open(args.output_path, 'w') as f:
             json.dump(hist, f)
-        
+
 if __name__ == '__main__':
     main()
     # Examples:
-    # python run.py --model graph --dataset cora
+    # python run.py --model graph --dataset data1
