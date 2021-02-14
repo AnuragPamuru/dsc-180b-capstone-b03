@@ -1,0 +1,143 @@
+body{
+    background: url("/images/main_back.png") center fixed;
+    padding: 50px;
+    /* font-family: 'Courier New', monospace; */
+}
+h1{
+    font-family: Georgia, serif;
+    font-size: 30px;
+    /* text-shadow: 2px 2px 8px #f7917f; */
+}
+
+#main{
+    width: 1100px;
+    margin: 50px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 30px;
+    border: 10px solid #f8cfca;
+}
+#titleImage{
+    border-radius: 30px;
+    margin-left: 300px;
+}
+#titlename{
+    font-family: 'Paytone One', sans-serif;
+    margin-left: 350px;
+    font-size: 40px;
+    color: rgb(104, 102, 102);
+}
+#title{
+    font-size: 50px;
+    grid-row: 50px 50px;
+    
+}
+p{
+    font-family: 'Courier', monospace;
+    color: rgb(104, 102, 102);
+    font-size: 18px;
+    line-height: 1.5;
+    /* text-shadow: 2px 2px 8px #f7917f; */
+
+}
+#authorname{
+    margin-left: 730px;
+    text-shadow: 2px 2px 8px #f7917f;
+    color: rgb(138, 135, 135);
+}
+#dashboard{
+    display: grid;
+    margin-left: 40px;
+    color: rgb(104, 102, 102);
+}
+
+#eda_vis{
+    margin-left: 200px;
+}
+#info1{
+    margin-left: 300px;
+}
+
+#cloudname{
+    font-family: 'Courier', Courier, monospace;
+    font-size: 25px;
+    color:rgb(104, 102, 102);
+    margin-left: 300px;
+
+}
+
+#caption1{
+    font-family: 'Courier', Courier, monospace;
+    font-size: 15px;
+    color:rgb(104, 102, 102);
+
+}
+
+b{
+    color: rgb(238, 147, 113);
+}
+
+
+
+.highcharts-point {
+ stroke: white;
+}
+.main-color, .main-color .highcharts-point {
+ fill: rgb(122, 192, 169);
+}
+/* .highcharts-graph.highcharts-negative {
+ stroke: blue;
+} */
+.highcharts-area.highcharts-negative {
+    fill: rgb(243, 165, 159);
+}
+.highcharts-point.highcharts-negative {
+    fill: rgb(243, 165, 159);
+}
+#map{
+    margin-left: 180px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.highcharts-figure{
+    margin-bottom: 100px;
+}
+#line{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#wordcloud{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.chart-parent{
+    display: flex;
+}
+
+#endimg{
+    border-radius: 30px;
+}
+#end{
+    margin-left: 350px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+    margin-left: 410px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-family: 'Paytone One', sans-serif;
+
+
+  }
+
+.button2 {background-color: rgb(250, 161, 158);}
+
+#cloudsource{
+    margin-left: 300px;
+}

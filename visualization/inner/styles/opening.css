@@ -1,0 +1,33 @@
+*{
+    font-family: 'Paytone One', sans-serif;
+}
+body{
+    background: url("/images/open.png") center no-repeat fixed;
+    padding: 50px;
+}
+
+#main{
+    width: 1050px;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 30px;
+    border: 10px solid #f8cfca;
+}
+
+#travel{
+    margin-left: 350px;
+    border-radius: 30px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+    margin-left: 350px;
+    border-radius: 30px;
+  }
+
+.button1 {background-color: rgb(102, 180, 172);}
