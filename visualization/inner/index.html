@@ -26,69 +26,72 @@
 </head>
 
 <body>
+  <div id="main">
+    <!-- <img id="titleImage" src="/images/title.gif" height="230" width="450"> -->
+    <h1 id="titlename"> Political Analysis</h1>
+    <p id="authorname"> Yimei Zhao & Yueting Wu & Anurag Pamuru</p >
+    <hr style="height:2px;border-width:0;color:rgb(252, 177, 177);background-color:rgb(248, 184, 184)">
+    <br >
+    <br >
+    <div id="dashboard">
+      <h1>Introduction</h1>
+      <p id="intro"> The modern American political landscape often seems void of bipartisanship. 
+        Nowhere is this stark divide between red and blue more evident than in the halls of the US Capitol, where the Senate and House of Representatives convene to carry out the duties of the legislative branch. While us average Americans rarely watch the daily proceedings of the Senate or House, Twitter has given us a unique window into the debates and discourse that shape our democracy. 
+        In fact, the 116th Congress, which served from January 3, 2019 to January 3, 2021 broke records by tweeting a total of 2.3 million tweets! As such, it is clear that Twitter is quickly becoming a digital public forum for American politicians. 
+        This surplus of tweets from the 116th Congress enables us to analyze the Twitter (following-follower) relationships between politicians on and across the two sides of the aisle. 
+        This project’s main inquiry is into whether there is a tangible difference in the way that Democrat members of Congress speak and interact on social media in comparison to Republican members of Congress. 
+        If there are such differences, this project will leverage them to train a suitable ML model on this data for node classification. That is to say, this project aims to determine a Senator’s political affiliation based off of a) their Twitter relationships to other Senators b) their speech patterns, and c) other mine-able features on Twitter.
+        In order to truly utilize the complex implicit relationships hidden in the Twitter graph, we can use models such as Graph Convolutional Networks, which apply the concept of “convolutions” from CNNs to a graph network-oriented framework. 
+        These GCNs learn feature representations for each node in the Twitter graph and utilize those representations to fuel the aforementioned node classification task. However useful the GCN may be, there is no shortage of other graph ML techniques that could lend themselves to the prediction task at hand. Of particular interest are inductive graph ML techniques; inductive Graph Networks are a new assortment of Graph Networks that no longer need to be trained on a whole graph to get feature representations for all nodes in the dataset (transductive). Instead, inductive techniques like GraphSage peer into the structural composition of all the nodes in a graph by building neighborhood embeddings for each node. By using a medley of networks on this dataset, we gain deeper insight into what kind of graph we are working with. In other words, if more complex techniques like GraphSage outrank vanilla GCNs, it would point to equally complex structural composition within the graph that only an inductive techniqmaue like GraphSage would be able to pinpoint. However, it is harder to train any network without features. In the case of our analysis, these features will be some text embedding of a politician's tweets. Solutions like word2vec or even a sentiment analysis metric that aggregate across the hundreds of thousands of tweets posted by the 116th Congress could prove quite useful as features for the training of the aforementioned models.
+      </p>
 
- <div id="main">
-  <!-- <img id="titleImage" src="/images/title.gif" height="230" width="450"> -->
-  <h1 id="titlename"> Political Analysis</h1>
-  <p id="authorname"> Yimei Zhao & Yueting Wu & Anurag Pamuru</p >
-  <hr style="height:2px;border-width:0;color:rgb(252, 177, 177);background-color:rgb(248, 184, 184)">
-  <br >
-  <br >
-  <div id="dashboard">
-    <h1>Introduction</h1>
-   <p id="intro"> The modern American political landscape often seems void of bipartisanship. 
-    Nowhere is this stark divide between red and blue more evident than in the halls of the US Capitol, where the Senate and House of Representatives convene to carry out the duties of the legislative branch. While us average Americans rarely watch the daily proceedings of the Senate or House, Twitter has given us a unique window into the debates and discourse that shape our democracy. 
-    In fact, the 116th Congress, which served from January 3, 2019 to January 3, 2021 broke records by tweeting a total of 2.3 million tweets! As such, it is clear that Twitter is quickly becoming a digital public forum for American politicians. 
-    This surplus of tweets from the 116th Congress enables us to analyze the Twitter (following-follower) relationships between politicians on and across the two sides of the aisle. 
-    This project’s main inquiry is into whether there is a tangible difference in the way that Democrat members of Congress speak and interact on social media in comparison to Republican members of Congress. 
-    If there are such differences, this project will leverage them to train a suitable ML model on this data for node classification. That is to say, this project aims to determine a Senator’s political affiliation based off of a) their Twitter relationships to other Senators b) their speech patterns, and c) other mine-able features on Twitter.
-     In order to truly utilize the complex implicit relationships hidden in the Twitter graph, we can use models such as Graph Convolutional Networks, which apply the concept of “convolutions” from CNNs to a graph network-oriented framework. 
-     These GCNs learn feature representations for each node in the Twitter graph and utilize those representations to fuel the aforementioned node classification task. However useful the GCN may be, there is no shortage of other graph ML techniques that could lend themselves to the prediction task at hand. Of particular interest are inductive graph ML techniques; inductive Graph Networks are a new assortment of Graph Networks that no longer need to be trained on a whole graph to get feature representations for all nodes in the dataset (transductive). Instead, inductive techniques like GraphSage peer into the structural composition of all the nodes in a graph by building neighborhood embeddings for each node. By using a medley of networks on this dataset, we gain deeper insight into what kind of graph we are working with. In other words, if more complex techniques like GraphSage outrank vanilla GCNs, it would point to equally complex structural composition within the graph that only an inductive techniqmaue like GraphSage would be able to pinpoint. However, it is harder to train any network without features. In the case of our analysis, these features will be some text embedding of a politician's tweets. Solutions like word2vec or even a sentiment analysis metric that aggregate across the hundreds of thousands of tweets posted by the 116th Congress could prove quite useful as features for the training of the aforementioned models.
-   </p>
+      <hr  style="height:2px;border-width:0;color:rgb(252, 177, 177);background-color:rgb(248, 184, 184)">
+        <h1>Datasets and Data Preprocessing</h1>
+        <p>
+        <br> 
+        All the data we have collected are all scraped by ourselves from different websites. The main data sources are from two websites, one is twitter.com, and the other is from the United States Senate official website.
+        <br>
+        <br>
+        edges.csv
+        <br>
+        This datasets records Senatorial relationships on Twitter. For example, if Senator AK Lisa Murkowski followed UT Mitt Romney, this would be represented as “UT Mitt Romney” in the followed column and “AK Lisa Murkowski” in the following column. It has 3824 rows and 2 columns with two columns: followed and following
+        When it is scraped, it is already a cleaned dataset. We just check for all the data and leave the data like this for data preprocessing.
+        <br>
+        <br>
+        tweets.csv
+        <br>
+        This dataset contains all Senatorial tweets during the 116th Congress (January 3, 2019 to January 3, 2021). This data was manually scraped from Twint. It has 103428 rows and 3 columns : Senator Name, Tweet, Date Tweeted
+        Right now, we haven’t done any data preprocessing for this dataset. It is the data that we scraped originally from the website.
+        <br>
+        <br>
+        voting_data.csv
+        <br>
+        This dataset contains all the senators’ voting patterns during the 116th congress. There are 79 bills in total that were issued or co-issued by the senate party. And we collect all the voting records for 100 senators in these 79 bills. It has 7900 rows and 3 columns: Senator Name, Decision, Bill
+        For data preprocessing, we clean the data by separating them to different bills.
+        <br>
+        <br>
+        voting_feature.csv
+        <br>
+        This dataset is the one hot-encoding version of voting_data.csv. It encodes senators' different decisions to 0, 1, 2, and 3. And each column in this dataset represents a single bill. It has 7900 rows and 80 columns: Senator Name, and 79 columns that represent each single bill.
+        For data preprocessing, we one-hot-encoding the data set of voting_data.
+      </p>
 
-   <hr  style="height:2px;border-width:0;color:rgb(252, 177, 177);background-color:rgb(248, 184, 184)">
-    <h1>Datasets and Data Preprocessing</h1>
-    <p>
-      <br> 
-      All the data we have collected are all scraped by ourselves from different websites. The main data sources are from two websites, one is twitter.com, and the other is from the United States Senate official website.
-      <br>
-      <br>
-      edges.csv
-      <br>
-      This datasets records Senatorial relationships on Twitter. For example, if Senator AK Lisa Murkowski followed UT Mitt Romney, this would be represented as “UT Mitt Romney” in the followed column and “AK Lisa Murkowski” in the following column. It has 3824 rows and 2 columns with two columns: followed and following
-      When it is scraped, it is already a cleaned dataset. We just check for all the data and leave the data like this for data preprocessing.
-      <br>
-      <br>
-      tweets.csv
-      <br>
-      This dataset contains all Senatorial tweets during the 116th Congress (January 3, 2019 to January 3, 2021). This data was manually scraped from Twint. It has 103428 rows and 3 columns : Senator Name, Tweet, Date Tweeted
-      Right now, we haven’t done any data preprocessing for this dataset. It is the data that we scraped originally from the website.
-      <br>
-      <br>
-      voting_data.csv
-      <br>
-      This dataset contains all the senators’ voting patterns during the 116th congress. There are 79 bills in total that were issued or co-issued by the senate party. And we collect all the voting records for 100 senators in these 79 bills. It has 7900 rows and 3 columns: Senator Name, Decision, Bill
-      For data preprocessing, we clean the data by separating them to different bills.
-      <br>
-      <br>
-      voting_feature.csv
-      <br>
-      This dataset is the one hot-encoding version of voting_data.csv. It encodes senators' different decisions to 0, 1, 2, and 3. And each column in this dataset represents a single bill. It has 7900 rows and 80 columns: Senator Name, and 79 columns that represent each single bill.
-      For data preprocessing, we one-hot-encoding the data set of voting_data.
-    </p>
+      <h1>Exploratory Data Analysis</h1>
+      <img id = "eda_vis"src="../images/graph_vis.png" height="400" width="550">
+      <p> Figure 1:
+        This is the visualization of the graph dataset we get. In our dataset, we have 100 senators with people who they are following. The red points represent the republican party, while the blue points represent the democratic party.
+      </p>
+      <img id = "info1"src="../images/info1.png" height="200" width="450">
+      <p>
+        The graph contains 3823 edges. The average in degree and out degree for the graph is 38.2300. We will further investigate the graph.
+      </p>
 
-    <h1>Exploratory Data Analysis</h1>
-    <img id = "eda_vis"src="/images/graph_vis.png" height="400" width="550">
-    <p> Figure 1:
-      This is the visualization of the graph dataset we get. In our dataset, we have 100 senators with people who they are following. The red points represent the republican party, while the blue points represent the democratic party.
-    </p>
-    <img id = "info1"src="/images/info1.png" height="200" width="450">
-    <p>
-      The graph contains 3823 edges. The average in degree and out degree for the graph is 38.2300. We will further investigate the graph.
-    </p>
+      <h1>Models</h1>
+      <p>
+        Insert explanation of different models used here + visualizations of the model output or accuracy.
+      </p>
+    </div>
   </div>
-  </div>
-
 </body>
 
 </html>
