@@ -83,7 +83,7 @@ class GraphSage_model(nn.Module):
 
     
 class GraphSage():
-    def __init__(self, A, X, y, device='cuda', n=0, F=1433, class_num=7, agg_func="MEAN", hidden_neuron=200,
+    def __init__(self, A, X, y, device='cuda', n=0, F=79, class_num=7, agg_func="MEAN", hidden_neuron=200,
                 len_walk=2, num_neigh=10, bias=True, val_size=0.3):
         if device == 'cuda':
             self.device= torch.device('cuda')

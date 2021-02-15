@@ -1,5 +1,5 @@
 body{
-    background: url("/images/main_back.png") center fixed;
+    background: url("/images/inner_back.jpg") center fixed;
     padding: 50px;
     /* font-family: 'Courier New', monospace; */
 }
@@ -15,7 +15,7 @@ h1{
     padding: 50px;
     background-color: white;
     border-radius: 30px;
-    border: 10px solid #f8cfca;
+    border: 10px solid #99d0e9;
 }
 #titleImage{
     border-radius: 30px;
@@ -42,7 +42,7 @@ p{
 }
 #authorname{
     margin-left: 730px;
-    text-shadow: 2px 2px 8px #f7917f;
+    text-shadow: 2px 2px 8px #80d2f3;
     color: rgb(138, 135, 135);
 }
 #dashboard{
