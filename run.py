@@ -26,8 +26,8 @@ def main():
     parser = argparse.ArgumentParser(description='Running model')
     parser.add_argument('--model', type=str, default='graph', choices=['n_GCN', 'graphsage'],
                         help='model to use for training (default: 2layerGNN)')
-    parser.add_argument('--dataset', type=str, default='data1', choices=['data1'],
-                        help='data set type (default data1 and only support data1 now)')
+    parser.add_argument('--dataset', type=str, default='data_voting', choices=['data_voting', 'data_senti', 'data_voting_senti'],
+                        help='data set type (default data_voting )')
     parser.add_argument('--output_path', type=str, default=local_output,
                         help='path for the output json file')
     parser.add_argument('--agg_func', type=str, default='MEAN', choices=['MEAN', 'MAX'],
@@ -59,7 +59,7 @@ def main():
         model = n_hidden_GCN(A, X, y, 0)
         hist = model.train_model()
     else:
-        if args.dataset == 'data1':
+        if args.dataset == 'data_voting':
             loader = data_loader("data/voting_features.csv", "data/edges.csv")
             X, y, A = loader.get_data()
             if args.model == 'n_GCN':
