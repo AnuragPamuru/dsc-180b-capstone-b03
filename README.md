@@ -1,7 +1,8 @@
 # Political Analysis on Graph
  
 ### Project Description
-
+The modern American political landscape often seems void of bipartisanship. Nowhere is this stark divide between red and blue more evident than in the halls of the US Capitol, where the Senate and House of Representatives convene to carry out the duties of the legislative branch. While us average Americans rarely watch the daily proceedings of the Senate or House, Twitter has given us a unique window into the debates and discourse that shape our democracy. In fact, the 116th Congress, which served from January 3, 2019 to January 3, 2021 broke records by tweeting a total of 2.3 million tweets! As such, it is clear that Twitter is quickly becoming a digital public forum for American politicians. This surplus of tweets from the 116th Congress enables us to analyze the Twitter (following-follower) relationships between politicians on and across the two sides of the aisle. This project’s main inquiry is into whether there is a tangible difference in the way that Democrat members of Congress speak and interact on social media in comparison to Republican members of Congress. If there are such differences, this project will leverage them to train a suitable ML model on this data for node classification. That is to say, this project aims to determine a Senator’s political affiliation based off of a) their Twitter relationships to other Senators b) their speech patterns, and c) other mine-able features on Twitter. In order to truly utilize the complex implicit relationships hidden in the Twitter graph, we can use models such as Graph Convolutional Networks, which apply the concept of
+“convolutions” from CNNs to a graph network-oriented framework.
 
 ### run.py
 We implement the GCN and GraphSage models as our main models for training and comparison.
