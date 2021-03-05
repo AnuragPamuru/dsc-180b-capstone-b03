@@ -26,7 +26,7 @@ def main():
     parser = argparse.ArgumentParser(description='Running model')
     parser.add_argument('--model', type=str, default='graph', choices=['n_GCN', 'graphsage'],
                         help='model to use for training (default: 2layerGNN)')
-    parser.add_argument('--dataset', type=str, default='data_voting', choices=['data_voting', 'data_senti', 'data_voting_senti'],
+    parser.add_argument('--dataset', type=str, default='data_voting', choices=['data_voting', 'data_voting_senti', 'data_115'],
                         help='data set type (default data_voting )')
     parser.add_argument('--output_path', type=str, default=local_output,
                         help='path for the output json file')
@@ -41,15 +41,13 @@ def main():
     parser.add_argument('--hidden_neurons', type=int, default=200,
                         help='hidden neurons in hidden layer (GCN) (default: 200)')
     parser.add_argument('--device', type=str, default='cuda',
-                        help='Device for trianing the model (dafault: cuda)')
-    parser.add_argument('--epochs', type=int, default=50,
-                        help='number of epochs to train (default: 50)')
-    parser.add_argument('--lr', type=float, default=1e-3,
-                        help='learning rate (default: 1e-3)')
+                        help='Device for training the model (dafault: cuda)')
+    parser.add_argument('--epochs', type=int, default=200,
+                        help='number of epochs to train (default: 200)')
+    parser.add_argument('--lr', type=float, default=1e-4,
+                        help='learning rate (default: 1e-4)')
     parser.add_argument('--val_size', type=float, default=0.3,
                         help='Validtion size (default: 0.3)')
-    parser.add_argument('--Lambda', type=float, default=0.3,
-                        help='Lambda used in LPA-GCN model (default: 0.3)')
     parser.add_argument('--test', action = 'store_true', help='running test')
     args = parser.parse_args()
     if args.test:
@@ -63,19 +61,28 @@ def main():
             loader = data_loader("data/voting_features.csv", "data/edges.csv")
             X, y, A = loader.get_data()
             if args.model == 'n_GCN':
-                model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size)
+                model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size, F=79)
                 hist = model.train_epoch(epochs=args.epochs, lr=args.lr)
             if args.model == 'graphsage':
                 model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size)
                 hist = model.train_epoch(epochs = args.epochs, lr=args.lr)
-        else:
-            loader = arxiv_loader(seed=args.seed, size=args.arxiv_size)
-            A, X, y = loader.get_train()
+        elif args.dataset == "data_voting_senti":
+            loader = data_loader("data/voting_features.csv","data/tweets.csv", "data/edges.csv")
+            X, y, A = loader.get_data()
             if args.model == 'n_GCN':
-                model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size, F=128, class_number=len(set(y)))
+                model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size, F=1079)
                 hist = model.train_epoch(epochs=args.epochs, lr=args.lr)
             if args.model == 'graphsage':
-                model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size,  F=128, class_num=len(set(y)))
+                model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size)
+                hist = model.train_epoch(epochs = args.epochs, lr=args.lr)
+        elif args.dataset == "data_115":
+            loader = data_loader("data/voting_feature_115th_final.csv", "data/edges.csv")
+            X, y, A = loader.get_data()
+            if args.model == 'n_GCN':
+                model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size, F=39)
+                hist = model.train_epoch(epochs=args.epochs, lr=args.lr)
+            if args.model == 'graphsage':
+                model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size)
                 hist = model.train_epoch(epochs = args.epochs, lr=args.lr)
     with open(args.output_path, 'w') as f:
             json.dump(hist, f)
