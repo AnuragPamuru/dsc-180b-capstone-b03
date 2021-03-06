@@ -102,6 +102,7 @@ class n_hidden_GCN():
             accs = self.test()
             acc.append(accs)
         accs = {'acc': acc}
+        plt.plot(range(epochs), acc)
         return accs
     
     def visualization(self):
