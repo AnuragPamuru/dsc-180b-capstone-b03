@@ -24,7 +24,7 @@ def main():
     local_data = local_path + '/data'
     local_output = local_path + '/config/model-output.json'
     parser = argparse.ArgumentParser(description='Running model')
-    parser.add_argument('--model', type=str, default='graph', choices=['n_GCN', 'graphsage'],
+    parser.add_argument('--model', type=str, default='n_GCN', choices=['n_GCN', 'graphsage'],
                         help='model to use for training (default: 2layerGNN)')
     parser.add_argument('--dataset', type=str, default='data_voting', choices=['data_voting', 'data_voting_senti', 'data_115'],
                         help='data set type (default data_voting )')
