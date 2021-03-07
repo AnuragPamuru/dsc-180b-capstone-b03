@@ -10,7 +10,7 @@ from torch import optim
 import torch.nn.functional as F
 import networkx as nx
 import matplotlib.pyplot as plt
-
+#The whole functions are from DSC180A Group02 which is contributed by Xinrui Zhan, Yimei Zhao and Shang Li
 def aggregate(A, X, len_walk, num_neigh, agg_func):
     norm = torch.div(A, torch.sum(A, axis=1))
     norm = torch.matrix_power(norm, len_walk)
