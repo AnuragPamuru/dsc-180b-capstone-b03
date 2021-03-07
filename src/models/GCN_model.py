@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 class GCN_N_layer(nn.Module):
     #The whole function is from DSC180A Group02 which is contributed by Xinrui Zhan, Yimei Zhao and Shang Li
-    def __init__(self, A, N=0, F = 1433, class_number=7, hidden_neurons=200):
+    def __init__(self, A, N=0, F = 1079, class_number=7, hidden_neurons=200):
         super(GCN_N_layer, self).__init__()
         self.A = A
         self.class_number = class_number
