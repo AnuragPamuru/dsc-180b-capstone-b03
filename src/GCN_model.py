@@ -68,6 +68,8 @@ class n_hidden_GCN():
         self.idx_train = torch.LongTensor(train_idx)
         self.idx_val = torch.LongTensor(val_idx)
         self.model.to(self.device)
+
+        self.train_loss = []
         
     def train(self, optimizer, epoch):
         self.model.train()
@@ -76,6 +78,7 @@ class n_hidden_GCN():
         loss = F.cross_entropy(output[self.idx_train], self.y[self.idx_train])
         loss.backward(retain_graph=True)
         optimizer.step()
+        self.train_loss.append(loss.item())
         print('Epoch: {x}'.format(x=epoch))
         print('training loss {:.4f}'.format(loss.item()))
             
@@ -102,7 +105,7 @@ class n_hidden_GCN():
             accs = self.test()
             acc.append(accs)
         accs = {'acc': acc}
-        plt.plot(range(epochs), acc)
+        plt.plot(range(epochs), self.train_loss)
         return accs
     
     def visualization(self):
