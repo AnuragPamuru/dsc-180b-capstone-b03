@@ -11,7 +11,7 @@ import os
 from collections import defaultdict 
 from nltk.corpus import stopwords
 
-class data_loader():
+class data_loader_sen():
     def __init__(self, features, tweets, edges_address, directed = False):
         features = pd.read_csv(features)
         edges = pd.read_csv(edges_address)

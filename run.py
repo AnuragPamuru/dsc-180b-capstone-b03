@@ -1,6 +1,7 @@
 import json
 import argparse
 from src.data.data_loader import data_loader
+from src.data.data_loader_sen import data_loader_sen
 from src.models.GCN_model import n_hidden_GCN
 import pandas as pd
 import numpy as np
@@ -67,7 +68,7 @@ def main():
                 model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size, F=79)
                 hist = model.train_epoch(epochs = args.epochs, lr=args.lr)
         elif args.dataset == "data_voting_senti":
-            loader = data_loader("data/voting_features.csv","data/tweets.csv", "data/edges.csv")
+            loader = data_loader_sen("data/voting_features.csv","data/tweets.csv", "data/edges.csv")
             X, y, A = loader.get_data()
             if args.model == 'n_GCN':
                 model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size, F=1079)
