@@ -8,6 +8,7 @@ IN Todd Young,AK Lisa Murkowski
 NJ Cory A. Booker,AK Lisa Murkowski
 WV Shelley Moore Capito,AK Lisa Murkowski
 KY Mitch McConnell,AK Lisa Murkowski
+WY Michael B. Enzi,AK Lisa Murkowski
 ME Angus S. King Jr.,AK Lisa Murkowski
 SC Tim Scott,AK Lisa Murkowski
 SD Mike Rounds,AK Lisa Murkowski
@@ -59,6 +60,7 @@ GA David Perdue,AK Lisa Murkowski
 UT Mike Lee,AK Lisa Murkowski
 VT Bernard Sanders,AK Lisa Murkowski
 IL Richard J. Durbin,AK Lisa Murkowski
+NY Charles E. Schumer,AK Lisa Murkowski
 VA Tim Kaine,AK Lisa Murkowski
 VA Mark R. Warner,AK Lisa Murkowski
 NC Richard Burr,AK Lisa Murkowski
@@ -81,6 +83,7 @@ ND Kevin Cramer,AK Dan Sullivan
 IN Mike Braun,AK Dan Sullivan
 MN Amy Klobuchar,AK Dan Sullivan
 MA Elizabeth Warren,AK Dan Sullivan
+NY Charles E. Schumer,AK Dan Sullivan
 IN Todd Young,AK Dan Sullivan
 DE Thomas R. Carper,AK Dan Sullivan
 LA John Kennedy,AK Dan Sullivan
@@ -114,6 +117,7 @@ CO Cory Gardner,AK Dan Sullivan
 NE Ben Sasse,AK Dan Sullivan
 NC Thom Tillis,AK Dan Sullivan
 FL Marco Rubio,AK Dan Sullivan
+WY Michael B. Enzi,AK Dan Sullivan
 NE Deb Fischer,AK Dan Sullivan
 SC Tim Scott,AK Dan Sullivan
 ID James E. Risch,AK Dan Sullivan
@@ -160,6 +164,7 @@ ME Angus S. King Jr.,AL Doug Jones
 CA Kamala D. Harris,AL Doug Jones
 NJ Robert Menendez,AL Doug Jones
 MA Edward J. Markey,AL Doug Jones
+WY Michael B. Enzi,AL Doug Jones
 MD Benjamin L. Cardin,AL Doug Jones
 OH Sherrod Brown,AL Doug Jones
 MI Debbie Stabenow,AL Doug Jones
@@ -191,6 +196,7 @@ WA Maria Cantwell,AL Doug Jones
 MT Jon Tester,AL Doug Jones
 MA Elizabeth Warren,AL Doug Jones
 NJ Cory A. Booker,AL Doug Jones
+NY Charles E. Schumer,AL Doug Jones
 AL Richard C. Shelby,AL Doug Jones
 SC Lindsey Graham,AL Richard C. Shelby
 ND Kevin Cramer,AL Richard C. Shelby
@@ -198,6 +204,7 @@ IN Todd Young,AL Richard C. Shelby
 IN Mike Braun,AL Richard C. Shelby
 UT Mitt Romney,AL Richard C. Shelby
 FL Rick Scott,AL Richard C. Shelby
+NY Charles E. Schumer,AL Richard C. Shelby
 LA Bill Cassidy,AL Richard C. Shelby
 MD Chris Van Hollen,AL Richard C. Shelby
 WI Tammy Baldwin,AL Richard C. Shelby
@@ -233,6 +240,7 @@ VT Patrick J. Leahy,AL Richard C. Shelby
 OH Rob Portman,AL Richard C. Shelby
 SD John Thune,AL Richard C. Shelby
 ID Mike Crapo,AL Richard C. Shelby
+WY Michael B. Enzi,AL Richard C. Shelby
 OR Jeff Merkley,AL Richard C. Shelby
 FL Marco Rubio,AL Richard C. Shelby
 NJ Robert Menendez,AL Richard C. Shelby
@@ -288,6 +296,7 @@ WI Ron Johnson,AR John Boozman
 AR Tom Cotton,AR John Boozman
 ND John Hoeven,AR John Boozman
 IA Chuck Grassley,AR John Boozman
+WY Michael B. Enzi,AR John Boozman
 PA Patrick J. Toomey,AR John Boozman
 ID Mike Crapo,AR John Boozman
 KS Jerry Moran,AR John Boozman
@@ -299,6 +308,7 @@ MT Steve Daines,AR Tom Cotton
 AK Dan Sullivan,AR Tom Cotton
 UT Mike Lee,AR Tom Cotton
 IA Joni Ernst,AR Tom Cotton
+WY Michael B. Enzi,AR Tom Cotton
 PA Patrick J. Toomey,AR Tom Cotton
 NC Thom Tillis,AR Tom Cotton
 SD John Thune,AR Tom Cotton
@@ -357,6 +367,7 @@ OK James M. Inhofe,AZ Kyrsten Sinema
 MI Debbie Stabenow,AZ Kyrsten Sinema
 UT Mike Lee,AZ Kyrsten Sinema
 ID James E. Risch,AZ Kyrsten Sinema
+NY Charles E. Schumer,AZ Kyrsten Sinema
 WI Ron Johnson,AZ Kyrsten Sinema
 WV Joe Manchin III,AZ Kyrsten Sinema
 CA Dianne Feinstein,AZ Kyrsten Sinema
@@ -381,6 +392,7 @@ WY John Barrasso,AZ Kyrsten Sinema
 OR Ron Wyden,AZ Kyrsten Sinema
 GA Johnny Isakson,AZ Kyrsten Sinema
 DE Thomas R. Carper,AZ Kyrsten Sinema
+WY Michael B. Enzi,AZ Kyrsten Sinema
 DE Christopher A. Coons,AZ Kyrsten Sinema
 MS Roger F. Wicker,AZ Kyrsten Sinema
 NM Tom Udall,AZ Kyrsten Sinema
@@ -435,6 +447,7 @@ WI Ron Johnson,CA Dianne Feinstein
 ID James E. Risch,CA Dianne Feinstein
 WY John Barrasso,CA Dianne Feinstein
 ND John Hoeven,CA Dianne Feinstein
+WY Michael B. Enzi,CA Dianne Feinstein
 MS Roger F. Wicker,CA Dianne Feinstein
 NE Deb Fischer,CA Dianne Feinstein
 NC Richard Burr,CA Dianne Feinstein
@@ -463,6 +476,7 @@ CT Richard Blumenthal,CA Dianne Feinstein
 OH Sherrod Brown,CA Dianne Feinstein
 OR Jeff Merkley,CA Dianne Feinstein
 IL Richard J. Durbin,CA Dianne Feinstein
+NY Charles E. Schumer,CA Dianne Feinstein
 CO Michael F. Bennet,CA Dianne Feinstein
 AK Lisa Murkowski,CA Dianne Feinstein
 ME Susan M. Collins,CA Dianne Feinstein
@@ -474,6 +488,7 @@ DE Christopher A. Coons,CA Kamala D. Harris
 DE Thomas R. Carper,CA Kamala D. Harris
 CT Richard Blumenthal,CA Kamala D. Harris
 VA Tim Kaine,CA Kamala D. Harris
+NY Charles E. Schumer,CA Kamala D. Harris
 OR Jeff Merkley,CA Kamala D. Harris
 IL Tammy Duckworth,CA Kamala D. Harris
 MA Elizabeth Warren,CA Kamala D. Harris
@@ -497,7 +512,6 @@ WA Patty Murray,CO Michael F. Bennet
 RI Jack Reed,CO Michael F. Bennet
 MT Jon Tester,CO Michael F. Bennet
 IL Tammy Duckworth,CO Michael F. Bennet
-NY Charles E. Schumer,CO Michael F. Bennet
 NJ Cory A. Booker,CO Michael F. Bennet
 KY Mitch McConnell,CO Michael F. Bennet
 NH Margaret Wood Hassan,CO Michael F. Bennet
@@ -519,6 +533,7 @@ SD Mike Rounds,CO Michael F. Bennet
 IA Joni Ernst,CO Michael F. Bennet
 AK Dan Sullivan,CO Michael F. Bennet
 IN Todd Young,CO Michael F. Bennet
+WY Michael B. Enzi,CO Michael F. Bennet
 VT Patrick J. Leahy,CO Michael F. Bennet
 AR Tom Cotton,CO Michael F. Bennet
 MT Steve Daines,CO Michael F. Bennet
@@ -548,6 +563,7 @@ SD John Thune,CO Michael F. Bennet
 CO Cory Gardner,CO Michael F. Bennet
 VA Mark R. Warner,CO Michael F. Bennet
 VA Tim Kaine,CO Michael F. Bennet
+NY Charles E. Schumer,CO Michael F. Bennet
 IL Richard J. Durbin,CO Michael F. Bennet
 MA Elizabeth Warren,CO Michael F. Bennet
 NJ Robert Menendez,CO Michael F. Bennet
@@ -560,6 +576,7 @@ NE Deb Fischer,CO Cory Gardner
 TX Ted Cruz,CO Cory Gardner
 ID Mike Crapo,CO Cory Gardner
 AR Tom Cotton,CO Cory Gardner
+WY Michael B. Enzi,CO Cory Gardner
 ND John Hoeven,CO Cory Gardner
 SD John Thune,CO Cory Gardner
 MI Gary C. Peters,CO Cory Gardner
@@ -645,6 +662,7 @@ VT Bernard Sanders,CT Richard Blumenthal
 OR Jeff Merkley,CT Richard Blumenthal
 RI Sheldon Whitehouse,CT Richard Blumenthal
 IL Richard J. Durbin,CT Richard Blumenthal
+NY Charles E. Schumer,CT Richard Blumenthal
 OH Sherrod Brown,CT Richard Blumenthal
 VA Mark R. Warner,CT Richard Blumenthal
 CO Cory Gardner,DE Thomas R. Carper
@@ -674,6 +692,7 @@ NH Margaret Wood Hassan,DE Thomas R. Carper
 NV Catherine Cortez Masto,DE Thomas R. Carper
 SD Mike Rounds,DE Thomas R. Carper
 NC Thom Tillis,DE Thomas R. Carper
+WY Michael B. Enzi,DE Thomas R. Carper
 ID Mike Crapo,DE Thomas R. Carper
 AR John Boozman,DE Thomas R. Carper
 WV Shelley Moore Capito,DE Thomas R. Carper
@@ -725,6 +744,7 @@ RI Sheldon Whitehouse,DE Thomas R. Carper
 VA Mark R. Warner,DE Thomas R. Carper
 CO Michael F. Bennet,DE Thomas R. Carper
 NM Tom Udall,DE Thomas R. Carper
+NY Charles E. Schumer,DE Thomas R. Carper
 DE Christopher A. Coons,DE Thomas R. Carper
 IN Todd Young,DE Christopher A. Coons
 MN Amy Klobuchar,DE Christopher A. Coons
@@ -770,12 +790,12 @@ GA Johnny Isakson,DE Christopher A. Coons
 RI Jack Reed,DE Christopher A. Coons
 HI Mazie K. Hirono,DE Christopher A. Coons
 WA Maria Cantwell,DE Christopher A. Coons
-NY Charles E. Schumer,DE Christopher A. Coons
 WI Tammy Baldwin,DE Christopher A. Coons
 WV Joe Manchin III,DE Christopher A. Coons
 SC Tim Scott,DE Christopher A. Coons
 CA Dianne Feinstein,DE Christopher A. Coons
 KS Jerry Moran,DE Christopher A. Coons
+WY Michael B. Enzi,DE Christopher A. Coons
 WA Patty Murray,DE Christopher A. Coons
 ID Mike Crapo,DE Christopher A. Coons
 IL Richard J. Durbin,DE Christopher A. Coons
@@ -788,6 +808,7 @@ RI Sheldon Whitehouse,DE Christopher A. Coons
 WI Ron Johnson,DE Christopher A. Coons
 CT Richard Blumenthal,DE Christopher A. Coons
 OR Ron Wyden,DE Christopher A. Coons
+NY Charles E. Schumer,DE Christopher A. Coons
 NH Jeanne Shaheen,DE Christopher A. Coons
 VT Patrick J. Leahy,DE Christopher A. Coons
 IA Chuck Grassley,DE Christopher A. Coons
@@ -837,6 +858,7 @@ NC Richard Burr,FL Marco Rubio
 MO Roy Blunt,FL Marco Rubio
 WY John Barrasso,FL Marco Rubio
 TN Lamar Alexander,FL Marco Rubio
+WY Michael B. Enzi,FL Marco Rubio
 VT Patrick J. Leahy,FL Marco Rubio
 ID Mike Crapo,FL Marco Rubio
 KS Jerry Moran,FL Marco Rubio
@@ -846,6 +868,7 @@ AR John Boozman,FL Marco Rubio
 NJ Robert Menendez,FL Marco Rubio
 OH Rob Portman,FL Marco Rubio
 SD John Thune,FL Marco Rubio
+WY Michael B. Enzi,FL Rick Scott
 WY John Barrasso,FL Rick Scott
 WV Joe Manchin III,FL Rick Scott
 VA Mark R. Warner,FL Rick Scott
@@ -923,6 +946,7 @@ MA Edward J. Markey,FL Rick Scott
 ME Susan M. Collins,FL Rick Scott
 DE Thomas R. Carper,FL Rick Scott
 CA Dianne Feinstein,FL Rick Scott
+NY Charles E. Schumer,FL Rick Scott
 MA Elizabeth Warren,FL Rick Scott
 HI Mazie K. Hirono,FL Rick Scott
 MI Debbie Stabenow,FL Rick Scott
@@ -989,6 +1013,7 @@ VT Patrick J. Leahy,HI Mazie K. Hirono
 WA Patty Murray,HI Mazie K. Hirono
 NH Jeanne Shaheen,HI Mazie K. Hirono
 OR Ron Wyden,HI Mazie K. Hirono
+NY Charles E. Schumer,HI Mazie K. Hirono
 MD Chris Van Hollen,HI Mazie K. Hirono
 MA Edward J. Markey,HI Mazie K. Hirono
 VT Bernard Sanders,HI Mazie K. Hirono
@@ -998,6 +1023,7 @@ VT Bernard Sanders,HI Brian Schatz
 DE Christopher A. Coons,HI Brian Schatz
 IL Richard J. Durbin,HI Brian Schatz
 NE Ben Sasse,HI Brian Schatz
+NY Charles E. Schumer,HI Brian Schatz
 WA Patty Murray,HI Brian Schatz
 OR Jeff Merkley,HI Brian Schatz
 NM Martin Heinrich,HI Brian Schatz
@@ -1056,6 +1082,7 @@ ID James E. Risch,IA Joni Ernst
 ID Mike Crapo,IA Joni Ernst
 WY John Barrasso,IA Joni Ernst
 MS Roger F. Wicker,IA Joni Ernst
+WY Michael B. Enzi,IA Joni Ernst
 NE Deb Fischer,IA Joni Ernst
 SC Tim Scott,IA Joni Ernst
 OR Ron Wyden,IA Joni Ernst
@@ -1093,6 +1120,7 @@ WI Tammy Baldwin,KS Jerry Moran
 CO Cory Gardner,KS Jerry Moran
 WA Patty Murray,KS Jerry Moran
 SC Lindsey Graham,KS Jerry Moran
+NY Charles E. Schumer,KS Jerry Moran
 PA Robert P. Casey Jr.,KS Jerry Moran
 NV Jacky Rosen,KS Jerry Moran
 NE Ben Sasse,KS Jerry Moran
@@ -1133,6 +1161,7 @@ ID James E. Risch,KS Jerry Moran
 SC Tim Scott,KS Jerry Moran
 AL Richard C. Shelby,KS Jerry Moran
 MS Roger F. Wicker,KS Jerry Moran
+WY Michael B. Enzi,KS Jerry Moran
 VA Mark R. Warner,KS Jerry Moran
 DE Christopher A. Coons,KS Jerry Moran
 FL Marco Rubio,KS Jerry Moran
@@ -1186,10 +1215,12 @@ ME Susan M. Collins,KS Pat Roberts
 SC Tim Scott,KS Pat Roberts
 TX Ted Cruz,KS Pat Roberts
 NC Richard Burr,KS Pat Roberts
+NY Charles E. Schumer,KS Pat Roberts
 AL Richard C. Shelby,KS Pat Roberts
 FL Marco Rubio,KS Pat Roberts
 ID Mike Crapo,KS Pat Roberts
 KY Rand Paul,KS Pat Roberts
+WY Michael B. Enzi,KS Pat Roberts
 UT Mike Lee,KS Pat Roberts
 ND John Hoeven,KS Pat Roberts
 AR John Boozman,KS Pat Roberts
@@ -1238,6 +1269,7 @@ PA Patrick J. Toomey,KY Mitch McConnell
 OK James Lankford,KY Mitch McConnell
 WI Ron Johnson,KY Mitch McConnell
 CO Cory Gardner,KY Mitch McConnell
+WY Michael B. Enzi,KY Mitch McConnell
 ND John Hoeven,KY Mitch McConnell
 ID Mike Crapo,KY Mitch McConnell
 AR Tom Cotton,KY Mitch McConnell
@@ -1261,6 +1293,7 @@ ND John Hoeven,KY Rand Paul
 TX Ted Cruz,KY Rand Paul
 NE Deb Fischer,KY Rand Paul
 GA Johnny Isakson,KY Rand Paul
+WY Michael B. Enzi,KY Rand Paul
 ME Susan M. Collins,KY Rand Paul
 MS Roger F. Wicker,KY Rand Paul
 KS Pat Roberts,KY Rand Paul
@@ -1279,6 +1312,7 @@ MO Roy Blunt,KY Rand Paul
 SD John Thune,KY Rand Paul
 AR John Boozman,KY Rand Paul
 OR Ron Wyden,KY Rand Paul
+NY Charles E. Schumer,KY Rand Paul
 TX John Cornyn,KY Rand Paul
 PA Patrick J. Toomey,KY Rand Paul
 IA Chuck Grassley,KY Rand Paul
@@ -1294,6 +1328,7 @@ NV Catherine Cortez Masto,LA Bill Cassidy
 IN Mike Braun,LA Bill Cassidy
 NC Richard Burr,LA Bill Cassidy
 ND Kevin Cramer,LA Bill Cassidy
+WY Michael B. Enzi,LA Bill Cassidy
 NE Deb Fischer,LA Bill Cassidy
 MO Josh Hawley,LA Bill Cassidy
 ND John Hoeven,LA Bill Cassidy
@@ -1367,6 +1402,7 @@ MD Benjamin L. Cardin,LA John Kennedy
 MD Chris Van Hollen,LA John Kennedy
 NV Catherine Cortez Masto,LA John Kennedy
 MA Elizabeth Warren,LA John Kennedy
+NY Charles E. Schumer,LA John Kennedy
 NH Margaret Wood Hassan,LA John Kennedy
 WV Joe Manchin III,LA John Kennedy
 ME Angus S. King Jr.,LA John Kennedy
@@ -1402,6 +1438,7 @@ FL Marco Rubio,LA John Kennedy
 WI Ron Johnson,LA John Kennedy
 CO Cory Gardner,LA John Kennedy
 MS Roger F. Wicker,LA John Kennedy
+WY Michael B. Enzi,LA John Kennedy
 SD John Thune,LA John Kennedy
 ND John Hoeven,LA John Kennedy
 ID Mike Crapo,LA John Kennedy
@@ -1472,6 +1509,7 @@ CO Cory Gardner,MA Edward J. Markey
 VT Patrick J. Leahy,MA Edward J. Markey
 IL Richard J. Durbin,MA Edward J. Markey
 DE Thomas R. Carper,MA Edward J. Markey
+WY Michael B. Enzi,MA Edward J. Markey
 MS Roger F. Wicker,MA Edward J. Markey
 ID Mike Crapo,MA Edward J. Markey
 IA Joni Ernst,MA Edward J. Markey
@@ -1501,6 +1539,7 @@ IA Chuck Grassley,MA Edward J. Markey
 NH Jeanne Shaheen,MA Edward J. Markey
 WA Patty Murray,MA Edward J. Markey
 OR Ron Wyden,MA Edward J. Markey
+NY Charles E. Schumer,MA Edward J. Markey
 MI Gary C. Peters,MA Edward J. Markey
 CT Richard Blumenthal,MA Edward J. Markey
 MA Elizabeth Warren,MA Edward J. Markey
@@ -1563,12 +1602,14 @@ WV Shelley Moore Capito,ME Susan M. Collins
 HI Mazie K. Hirono,ME Susan M. Collins
 PA Patrick J. Toomey,ME Susan M. Collins
 SC Tim Scott,ME Susan M. Collins
+WY Michael B. Enzi,ME Susan M. Collins
 ME Angus S. King Jr.,ME Susan M. Collins
 IL Richard J. Durbin,ME Susan M. Collins
 AL Richard C. Shelby,ME Susan M. Collins
 KS Pat Roberts,ME Susan M. Collins
 OK James M. Inhofe,ME Susan M. Collins
 OH Sherrod Brown,ME Susan M. Collins
+NY Charles E. Schumer,ME Susan M. Collins
 VT Bernard Sanders,ME Susan M. Collins
 CT Richard Blumenthal,ME Susan M. Collins
 RI Sheldon Whitehouse,ME Susan M. Collins
@@ -1635,6 +1676,7 @@ TX Ted Cruz,ME Angus S. King Jr.
 VA Tim Kaine,ME Angus S. King Jr.
 GA Johnny Isakson,ME Angus S. King Jr.
 SC Tim Scott,ME Angus S. King Jr.
+NY Charles E. Schumer,ME Angus S. King Jr.
 HI Mazie K. Hirono,ME Angus S. King Jr.
 NE Deb Fischer,ME Angus S. King Jr.
 VT Patrick J. Leahy,ME Angus S. King Jr.
@@ -1663,6 +1705,7 @@ WI Ron Johnson,ME Angus S. King Jr.
 ND John Hoeven,ME Angus S. King Jr.
 IA Chuck Grassley,ME Angus S. King Jr.
 CA Dianne Feinstein,ME Angus S. King Jr.
+WY Michael B. Enzi,ME Angus S. King Jr.
 IL Richard J. Durbin,ME Angus S. King Jr.
 ID Mike Crapo,ME Angus S. King Jr.
 TX John Cornyn,ME Angus S. King Jr.
@@ -1729,6 +1772,7 @@ VT Bernard Sanders,MI Gary C. Peters
 WA Maria Cantwell,MI Gary C. Peters
 WA Patty Murray,MI Gary C. Peters
 RI Sheldon Whitehouse,MI Gary C. Peters
+NY Charles E. Schumer,MI Gary C. Peters
 RI Jack Reed,MI Gary C. Peters
 NM Martin Heinrich,MI Gary C. Peters
 NM Tom Udall,MI Gary C. Peters
@@ -1743,6 +1787,7 @@ ME Susan M. Collins,MI Gary C. Peters
 DE Thomas R. Carper,MI Gary C. Peters
 NJ Robert Menendez,MI Gary C. Peters
 MD Benjamin L. Cardin,MI Gary C. Peters
+WY Michael B. Enzi,MI Gary C. Peters
 AK Lisa Murkowski,MI Gary C. Peters
 CO Cory Gardner,MI Gary C. Peters
 MA Edward J. Markey,MI Gary C. Peters
@@ -1791,6 +1836,7 @@ OK James M. Inhofe,MI Debbie Stabenow
 KS Pat Roberts,MI Debbie Stabenow
 VT Bernard Sanders,MI Debbie Stabenow
 MI Gary C. Peters,MI Debbie Stabenow
+NY Charles E. Schumer,MI Debbie Stabenow
 AK Lisa Murkowski,MI Debbie Stabenow
 DE Christopher A. Coons,MI Debbie Stabenow
 FL Marco Rubio,MI Debbie Stabenow
@@ -1815,6 +1861,7 @@ KS Jerry Moran,MN Amy Klobuchar
 ID James E. Risch,MN Amy Klobuchar
 KY Rand Paul,MN Amy Klobuchar
 SC Tim Scott,MN Amy Klobuchar
+WY Michael B. Enzi,MN Amy Klobuchar
 WY John Barrasso,MN Amy Klobuchar
 TN Lamar Alexander,MN Amy Klobuchar
 MS Roger F. Wicker,MN Amy Klobuchar
@@ -1840,10 +1887,8 @@ SD John Thune,MN Amy Klobuchar
 NC Thom Tillis,MN Amy Klobuchar
 ID Mike Crapo,MN Amy Klobuchar
 LA John Kennedy,MN Amy Klobuchar
-NY Charles E. Schumer,MN Amy Klobuchar
 CT Christopher Murphy,MN Amy Klobuchar
 FL Rick Scott,MN Tina Smith
-NY Charles E. Schumer,MN Tina Smith
 FL Rick Scott,MO Roy Blunt
 MO Josh Hawley,MO Roy Blunt
 IN Mike Braun,MO Josh Hawley
@@ -1886,6 +1931,7 @@ OK James M. Inhofe,MT Steve Daines
 ME Susan M. Collins,MT Steve Daines
 AR Tom Cotton,MT Steve Daines
 FL Marco Rubio,MT Steve Daines
+WY Michael B. Enzi,MT Steve Daines
 AK Lisa Murkowski,MT Steve Daines
 WY John Barrasso,MT Steve Daines
 KY Rand Paul,MT Steve Daines
@@ -1966,6 +2012,7 @@ SD John Thune,MT Jon Tester
 WY John Barrasso,MT Jon Tester
 WA Maria Cantwell,MT Jon Tester
 ND John Hoeven,MT Jon Tester
+WY Michael B. Enzi,MT Jon Tester
 ME Angus S. King Jr.,MT Jon Tester
 VT Bernard Sanders,MT Jon Tester
 IA Chuck Grassley,MT Jon Tester
@@ -1980,6 +2027,7 @@ CT Richard Blumenthal,MT Jon Tester
 MD Benjamin L. Cardin,MT Jon Tester
 IL Richard J. Durbin,MT Jon Tester
 NH Jeanne Shaheen,MT Jon Tester
+NY Charles E. Schumer,MT Jon Tester
 NM Tom Udall,MT Jon Tester
 OR Jeff Merkley,MT Jon Tester
 RI Sheldon Whitehouse,MT Jon Tester
@@ -2043,6 +2091,7 @@ MS Roger F. Wicker,NC Richard Burr
 TN Lamar Alexander,NC Richard Burr
 WI Ron Johnson,NC Richard Burr
 WY John Barrasso,NC Richard Burr
+WY Michael B. Enzi,NC Richard Burr
 SD John Thune,NC Richard Burr
 AR John Boozman,NC Richard Burr
 PA Patrick J. Toomey,NC Richard Burr
@@ -2101,6 +2150,7 @@ OH Rob Portman,NC Thom Tillis
 NJ Robert Menendez,NC Thom Tillis
 KS Jerry Moran,NC Thom Tillis
 AK Lisa Murkowski,NC Thom Tillis
+NY Charles E. Schumer,NC Thom Tillis
 TX John Cornyn,NC Thom Tillis
 IA Chuck Grassley,NC Thom Tillis
 VA Mark R. Warner,NC Thom Tillis
@@ -2122,6 +2172,7 @@ CA Dianne Feinstein,NC Thom Tillis
 ND John Hoeven,NC Thom Tillis
 SD John Thune,NC Thom Tillis
 WA Patty Murray,NC Thom Tillis
+WY Michael B. Enzi,NC Thom Tillis
 CT Richard Blumenthal,NC Thom Tillis
 MS Roger F. Wicker,NC Thom Tillis
 OR Ron Wyden,NC Thom Tillis
@@ -2152,6 +2203,7 @@ OK James M. Inhofe,ND Kevin Cramer
 IA Chuck Grassley,ND Kevin Cramer
 NC Thom Tillis,ND Kevin Cramer
 ID Mike Crapo,ND Kevin Cramer
+WY Michael B. Enzi,ND Kevin Cramer
 ME Susan M. Collins,ND Kevin Cramer
 NE Deb Fischer,ND Kevin Cramer
 AK Dan Sullivan,ND Kevin Cramer
@@ -2228,6 +2280,7 @@ GA David Perdue,ND John Hoeven
 PA Patrick J. Toomey,ND John Hoeven
 WI Ron Johnson,ND John Hoeven
 KY Rand Paul,ND John Hoeven
+WY Michael B. Enzi,ND John Hoeven
 FL Marco Rubio,ND John Hoeven
 OK James M. Inhofe,ND John Hoeven
 MI Debbie Stabenow,ND John Hoeven
@@ -2299,6 +2352,7 @@ AL Richard C. Shelby,NE Deb Fischer
 FL Marco Rubio,NE Deb Fischer
 NH Jeanne Shaheen,NE Deb Fischer
 SC Tim Scott,NE Deb Fischer
+NY Charles E. Schumer,NE Deb Fischer
 VT Bernard Sanders,NE Deb Fischer
 KS Pat Roberts,NE Deb Fischer
 ID James E. Risch,NE Deb Fischer
@@ -2321,6 +2375,7 @@ HI Mazie K. Hirono,NE Deb Fischer
 NM Martin Heinrich,NE Deb Fischer
 IA Chuck Grassley,NE Deb Fischer
 CA Dianne Feinstein,NE Deb Fischer
+WY Michael B. Enzi,NE Deb Fischer
 IL Richard J. Durbin,NE Deb Fischer
 TX Ted Cruz,NE Deb Fischer
 ID Mike Crapo,NE Deb Fischer
@@ -2393,6 +2448,7 @@ NE Deb Fischer,NH Margaret Wood Hassan
 NJ Robert Menendez,NH Margaret Wood Hassan
 NM Martin Heinrich,NH Margaret Wood Hassan
 NM Tom Udall,NH Margaret Wood Hassan
+NY Charles E. Schumer,NH Margaret Wood Hassan
 NC Richard Burr,NH Margaret Wood Hassan
 ND John Hoeven,NH Margaret Wood Hassan
 OH Sherrod Brown,NH Margaret Wood Hassan
@@ -2421,6 +2477,7 @@ WV Shelley Moore Capito,NH Margaret Wood Hassan
 WV Joe Manchin III,NH Margaret Wood Hassan
 WI Tammy Baldwin,NH Margaret Wood Hassan
 WI Ron Johnson,NH Margaret Wood Hassan
+WY Michael B. Enzi,NH Margaret Wood Hassan
 WY John Barrasso,NH Margaret Wood Hassan
 VT Bernard Sanders,NH Margaret Wood Hassan
 MI Debbie Stabenow,NH Margaret Wood Hassan
@@ -2474,6 +2531,7 @@ VT Bernard Sanders,NJ Cory A. Booker
 HI Mazie K. Hirono,NJ Cory A. Booker
 VA Tim Kaine,NJ Cory A. Booker
 NC Thom Tillis,NJ Cory A. Booker
+NY Charles E. Schumer,NJ Cory A. Booker
 CA Kamala D. Harris,NJ Cory A. Booker
 UT Mike Lee,NJ Cory A. Booker
 IL Richard J. Durbin,NJ Cory A. Booker
@@ -2486,6 +2544,7 @@ PA Robert P. Casey Jr.,NJ Cory A. Booker
 CT Richard Blumenthal,NJ Cory A. Booker
 OR Jeff Merkley,NJ Cory A. Booker
 OR Ron Wyden,NJ Cory A. Booker
+WY Michael B. Enzi,NJ Cory A. Booker
 WY John Barrasso,NJ Cory A. Booker
 VT Patrick J. Leahy,NJ Cory A. Booker
 WI Ron Johnson,NJ Cory A. Booker
@@ -2542,6 +2601,7 @@ DE Thomas R. Carper,NJ Robert Menendez
 DE Christopher A. Coons,NJ Robert Menendez
 CT Richard Blumenthal,NJ Robert Menendez
 RI Sheldon Whitehouse,NJ Robert Menendez
+NY Charles E. Schumer,NJ Robert Menendez
 IL Richard J. Durbin,NJ Robert Menendez
 OR Ron Wyden,NJ Robert Menendez
 VT Patrick J. Leahy,NJ Robert Menendez
@@ -2586,12 +2646,14 @@ RI Jack Reed,NM Martin Heinrich
 ID James E. Risch,NM Martin Heinrich
 WA Maria Cantwell,NM Martin Heinrich
 VT Bernard Sanders,NM Martin Heinrich
+NY Charles E. Schumer,NM Martin Heinrich
 MT Jon Tester,NM Martin Heinrich
 VT Patrick J. Leahy,NM Martin Heinrich
 ME Susan M. Collins,NM Martin Heinrich
 IL Richard J. Durbin,NM Martin Heinrich
 ND John Hoeven,NM Martin Heinrich
 NH Jeanne Shaheen,NM Martin Heinrich
+WY Michael B. Enzi,NM Martin Heinrich
 OR Jeff Merkley,NM Martin Heinrich
 ME Angus S. King Jr.,NM Martin Heinrich
 WI Tammy Baldwin,NM Martin Heinrich
@@ -2611,6 +2673,7 @@ AZ Kyrsten Sinema,NM Tom Udall
 NV Jacky Rosen,NM Tom Udall
 VA Tim Kaine,NM Tom Udall
 DE Christopher A. Coons,NM Tom Udall
+WY Michael B. Enzi,NM Tom Udall
 WY John Barrasso,NM Tom Udall
 WI Tammy Baldwin,NM Tom Udall
 WI Ron Johnson,NM Tom Udall
@@ -2639,6 +2702,7 @@ OH Sherrod Brown,NM Tom Udall
 ND John Hoeven,NM Tom Udall
 NC Thom Tillis,NM Tom Udall
 NC Richard Burr,NM Tom Udall
+NY Charles E. Schumer,NM Tom Udall
 NJ Robert Menendez,NM Tom Udall
 NH Jeanne Shaheen,NM Tom Udall
 NE Ben Sasse,NM Tom Udall
@@ -2713,6 +2777,7 @@ ND John Hoeven,NV Catherine Cortez Masto
 IA Chuck Grassley,NV Catherine Cortez Masto
 WY John Barrasso,NV Catherine Cortez Masto
 IA Joni Ernst,NV Catherine Cortez Masto
+WY Michael B. Enzi,NV Catherine Cortez Masto
 AL Doug Jones,NV Catherine Cortez Masto
 MN Tina Smith,NV Catherine Cortez Masto
 ME Susan M. Collins,NV Catherine Cortez Masto
@@ -2754,6 +2819,7 @@ VT Bernard Sanders,NV Catherine Cortez Masto
 NM Martin Heinrich,NV Catherine Cortez Masto
 WA Maria Cantwell,NV Catherine Cortez Masto
 MD Chris Van Hollen,NV Catherine Cortez Masto
+NY Charles E. Schumer,NV Catherine Cortez Masto
 CA Kamala D. Harris,NV Catherine Cortez Masto
 NH Margaret Wood Hassan,NV Catherine Cortez Masto
 IL Tammy Duckworth,NV Catherine Cortez Masto
@@ -2787,6 +2853,7 @@ IN Mike Braun,OH Rob Portman
 TN Marsha Blackburn,OH Rob Portman
 CO Cory Gardner,OK James M. Inhofe
 ND Kevin Cramer,OK James M. Inhofe
+WY Michael B. Enzi,OK James M. Inhofe
 WY John Barrasso,OK James M. Inhofe
 TN Lamar Alexander,OK James M. Inhofe
 TX John Cornyn,OK James M. Inhofe
@@ -2838,6 +2905,7 @@ CA Dianne Feinstein,OK James Lankford
 HI Mazie K. Hirono,OK James Lankford
 RI Jack Reed,OK James Lankford
 DE Christopher A. Coons,OK James Lankford
+NY Charles E. Schumer,OK James Lankford
 VA Tim Kaine,OK James Lankford
 DE Thomas R. Carper,OK James Lankford
 ME Angus S. King Jr.,OK James Lankford
@@ -2877,6 +2945,7 @@ AK Lisa Murkowski,OK James Lankford
 NM Tom Udall,OK James Lankford
 ID James E. Risch,OK James Lankford
 ID Mike Crapo,OK James Lankford
+WY Michael B. Enzi,OK James Lankford
 MS Roger F. Wicker,OK James Lankford
 ND John Hoeven,OK James Lankford
 OH Sherrod Brown,OK James Lankford
@@ -2930,6 +2999,7 @@ GA Johnny Isakson,OR Jeff Merkley
 TN Lamar Alexander,OR Jeff Merkley
 IA Chuck Grassley,OR Jeff Merkley
 TX John Cornyn,OR Jeff Merkley
+NY Charles E. Schumer,OR Jeff Merkley
 NJ Cory A. Booker,OR Jeff Merkley
 SC Tim Scott,OR Jeff Merkley
 TX Ted Cruz,OR Jeff Merkley
@@ -2943,6 +3013,7 @@ AK Lisa Murkowski,OR Jeff Merkley
 ME Susan M. Collins,OR Jeff Merkley
 ND John Hoeven,OR Jeff Merkley
 ID James E. Risch,OR Jeff Merkley
+WY Michael B. Enzi,OR Jeff Merkley
 WI Ron Johnson,OR Jeff Merkley
 WY John Barrasso,OR Jeff Merkley
 SD John Thune,OR Jeff Merkley
@@ -3021,6 +3092,7 @@ ID Mike Crapo,OR Ron Wyden
 MS Roger F. Wicker,OR Ron Wyden
 SD John Thune,OR Ron Wyden
 WY John Barrasso,OR Ron Wyden
+WY Michael B. Enzi,OR Ron Wyden
 NE Deb Fischer,OR Ron Wyden
 ND John Hoeven,OR Ron Wyden
 PA Patrick J. Toomey,OR Ron Wyden
@@ -3036,6 +3108,7 @@ CT Richard Blumenthal,OR Ron Wyden
 VT Bernard Sanders,OR Ron Wyden
 HI Brian Schatz,OR Ron Wyden
 AK Lisa Murkowski,OR Ron Wyden
+NY Charles E. Schumer,OR Ron Wyden
 IA Chuck Grassley,OR Ron Wyden
 OR Jeff Merkley,OR Ron Wyden
 MN Amy Klobuchar,PA Robert P. Casey Jr.
@@ -3080,6 +3153,7 @@ NE Ben Sasse,PA Robert P. Casey Jr.
 NC Thom Tillis,PA Robert P. Casey Jr.
 TX John Cornyn,PA Robert P. Casey Jr.
 AL Richard C. Shelby,PA Robert P. Casey Jr.
+WY Michael B. Enzi,PA Robert P. Casey Jr.
 TN Lamar Alexander,PA Robert P. Casey Jr.
 WI Ron Johnson,PA Robert P. Casey Jr.
 AR John Boozman,PA Robert P. Casey Jr.
@@ -3109,6 +3183,7 @@ PA Patrick J. Toomey,PA Robert P. Casey Jr.
 VA Mark R. Warner,PA Robert P. Casey Jr.
 NM Tom Udall,PA Robert P. Casey Jr.
 MI Debbie Stabenow,PA Robert P. Casey Jr.
+NY Charles E. Schumer,PA Robert P. Casey Jr.
 VT Bernard Sanders,PA Robert P. Casey Jr.
 OR Jeff Merkley,PA Robert P. Casey Jr.
 NJ Robert Menendez,PA Robert P. Casey Jr.
@@ -3162,6 +3237,7 @@ FL Marco Rubio,PA Patrick J. Toomey
 ME Susan M. Collins,PA Patrick J. Toomey
 MO Roy Blunt,PA Patrick J. Toomey
 AR John Boozman,PA Patrick J. Toomey
+WY Michael B. Enzi,PA Patrick J. Toomey
 NH Jeanne Shaheen,PA Patrick J. Toomey
 AK Lisa Murkowski,PA Patrick J. Toomey
 ID Mike Crapo,PA Patrick J. Toomey
@@ -3203,6 +3279,7 @@ MD Benjamin L. Cardin,RI Jack Reed
 VA Mark R. Warner,RI Jack Reed
 NC Richard Burr,RI Jack Reed
 VA Tim Kaine,RI Jack Reed
+NY Charles E. Schumer,RI Jack Reed
 MA Edward J. Markey,RI Jack Reed
 MI Debbie Stabenow,RI Jack Reed
 OH Sherrod Brown,RI Jack Reed
@@ -3231,6 +3308,7 @@ MI Gary C. Peters,RI Sheldon Whitehouse
 SC Tim Scott,RI Sheldon Whitehouse
 SD John Thune,RI Sheldon Whitehouse
 WY John Barrasso,RI Sheldon Whitehouse
+WY Michael B. Enzi,RI Sheldon Whitehouse
 ID James E. Risch,RI Sheldon Whitehouse
 ID Mike Crapo,RI Sheldon Whitehouse
 KS Pat Roberts,RI Sheldon Whitehouse
@@ -3264,6 +3342,7 @@ VT Patrick J. Leahy,RI Sheldon Whitehouse
 VT Bernard Sanders,RI Sheldon Whitehouse
 OH Sherrod Brown,RI Sheldon Whitehouse
 DE Christopher A. Coons,RI Sheldon Whitehouse
+NY Charles E. Schumer,RI Sheldon Whitehouse
 DE Thomas R. Carper,RI Sheldon Whitehouse
 NM Tom Udall,RI Sheldon Whitehouse
 KY Mitch McConnell,SC Lindsey Graham
@@ -3313,6 +3392,7 @@ VT Patrick J. Leahy,SD Mike Rounds
 RI Sheldon Whitehouse,SD Mike Rounds
 CT Richard Blumenthal,SD Mike Rounds
 OR Ron Wyden,SD Mike Rounds
+NY Charles E. Schumer,SD Mike Rounds
 OR Jeff Merkley,SD Mike Rounds
 MI Debbie Stabenow,SD Mike Rounds
 CA Dianne Feinstein,SD Mike Rounds
@@ -3338,6 +3418,7 @@ TX Ted Cruz,SD Mike Rounds
 MT Jon Tester,SD Mike Rounds
 IA Joni Ernst,SD Mike Rounds
 NE Ben Sasse,SD Mike Rounds
+WY Michael B. Enzi,SD Mike Rounds
 WV Joe Manchin III,SD Mike Rounds
 AR Tom Cotton,SD Mike Rounds
 GA Johnny Isakson,SD Mike Rounds
@@ -3371,6 +3452,7 @@ ND Kevin Cramer,SD John Thune
 FL Rick Scott,SD John Thune
 MS Cindy Hyde-Smith,SD John Thune
 AR John Boozman,SD John Thune
+WY Michael B. Enzi,SD John Thune
 ND John Hoeven,SD John Thune
 IN Mike Braun,SD John Thune
 OK James Lankford,SD John Thune
@@ -3446,6 +3528,7 @@ NC Thom Tillis,TN Lamar Alexander
 CO Cory Gardner,TN Lamar Alexander
 ME Angus S. King Jr.,TN Lamar Alexander
 CO Michael F. Bennet,TN Lamar Alexander
+WY Michael B. Enzi,TN Lamar Alexander
 ND John Hoeven,TN Lamar Alexander
 AL Richard C. Shelby,TN Lamar Alexander
 GA Johnny Isakson,TN Lamar Alexander
@@ -3492,6 +3575,7 @@ GA Johnny Isakson,TN Marsha Blackburn
 LA Bill Cassidy,TN Marsha Blackburn
 LA John Kennedy,TN Marsha Blackburn
 KY Mitch McConnell,TN Marsha Blackburn
+WY Michael B. Enzi,TN Marsha Blackburn
 SC Lindsey Graham,TN Marsha Blackburn
 IA Joni Ernst,TN Marsha Blackburn
 NC Thom Tillis,TN Marsha Blackburn
@@ -3562,10 +3646,12 @@ AR Tom Cotton,TX John Cornyn
 ND John Hoeven,TX John Cornyn
 TX Ted Cruz,TX John Cornyn
 NH Jeanne Shaheen,TX John Cornyn
+WY Michael B. Enzi,TX John Cornyn
 NM Tom Udall,TX John Cornyn
 CA Dianne Feinstein,TX John Cornyn
 CO Michael F. Bennet,TX John Cornyn
 SC Tim Scott,TX John Cornyn
+NY Charles E. Schumer,TX John Cornyn
 FL Rick Scott,TX John Cornyn
 DE Thomas R. Carper,TX John Cornyn
 AL Richard C. Shelby,TX John Cornyn
@@ -3622,6 +3708,7 @@ AK Lisa Murkowski,VT Patrick J. Leahy
 VT Bernard Sanders,VT Patrick J. Leahy
 NJ Robert Menendez,VT Patrick J. Leahy
 OR Jeff Merkley,VT Patrick J. Leahy
+NY Charles E. Schumer,VT Patrick J. Leahy
 NH Jeanne Shaheen,VT Patrick J. Leahy
 MI Debbie Stabenow,VT Patrick J. Leahy
 NM Tom Udall,VT Patrick J. Leahy
@@ -3656,6 +3743,7 @@ RI Sheldon Whitehouse,VT Bernard Sanders
 DE Christopher A. Coons,VT Bernard Sanders
 VT Patrick J. Leahy,VT Bernard Sanders
 NJ Robert Menendez,VT Bernard Sanders
+NY Charles E. Schumer,VT Bernard Sanders
 OH Sherrod Brown,VT Bernard Sanders
 FL Marco Rubio,WA Maria Cantwell
 AR John Boozman,WA Maria Cantwell
@@ -3681,6 +3769,7 @@ WI Ron Johnson,WA Maria Cantwell
 IN Todd Young,WA Maria Cantwell
 MS Roger F. Wicker,WA Maria Cantwell
 TN Marsha Blackburn,WA Maria Cantwell
+WY Michael B. Enzi,WA Maria Cantwell
 SD John Thune,WA Maria Cantwell
 ND John Hoeven,WA Maria Cantwell
 ID Mike Crapo,WA Maria Cantwell
@@ -3748,6 +3837,7 @@ OH Sherrod Brown,WA Maria Cantwell
 CA Dianne Feinstein,WA Maria Cantwell
 OR Jeff Merkley,WA Maria Cantwell
 OR Ron Wyden,WA Maria Cantwell
+NY Charles E. Schumer,WA Maria Cantwell
 VT Patrick J. Leahy,WA Maria Cantwell
 WA Patty Murray,WA Maria Cantwell
 AZ Kyrsten Sinema,WA Patty Murray
@@ -3764,6 +3854,7 @@ HI Brian Schatz,WA Patty Murray
 NJ Cory A. Booker,WA Patty Murray
 CA Kamala D. Harris,WA Patty Murray
 GA Johnny Isakson,WA Patty Murray
+WY Michael B. Enzi,WA Patty Murray
 NE Deb Fischer,WA Patty Murray
 ID Mike Crapo,WA Patty Murray
 WI Ron Johnson,WA Patty Murray
@@ -3818,7 +3909,5 @@ VT Bernard Sanders,WA Patty Murray
 ME Susan M. Collins,WA Patty Murray
 IL Richard J. Durbin,WA Patty Murray
 OR Ron Wyden,WA Patty Murray
-NY Charles E. Schumer,WI Tammy Baldwin
+NY Charles E. Schumer,WA Patty Murray
 CT Christopher Murphy,WI Ron Johnson
-WY Michael B. Enzi,WA Patty Murray
-AZ Martha McSally,AZ Kyrsten Sinema
