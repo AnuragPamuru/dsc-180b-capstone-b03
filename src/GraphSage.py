@@ -21,7 +21,7 @@ def aggregate(A, X, len_walk, num_neigh, agg_func):
         if agg_func == "MEAN":
             result[i] = torch.mean(X[ind], axis=0)
         else:
-            result[i] = torch.max(X[ind], axis=0).values
+            result[i] = torch.mean(X[ind], axis=0).values
     return result
 
 class SageLayer(nn.Module):
@@ -149,14 +149,13 @@ class GraphSage():
         accs = {'acc': acc}
         return accs
     
-    def draw_cora(self):
-        self.graphsage.eval()
-        output = self.graphsage(self.X)
+    def visualization(self):
+        self.model.eval()
+        output = self.model(self.X)
         pred = output.argmax(dim=1, keepdim=True)
         A = self.A.cpu().detach().numpy()
         Y = pred.cpu().detach().numpy()
         G = nx.from_numpy_matrix(A, nx.DiGraph())
-        plt.figure(figsize=(10,10))
         pos = nx.spring_layout(G, seed=675)
-        nx.draw(G, pos=pos, node_size=10, edge_size=1,node_color=Y, cmap = 'tab10')
+        nx.draw(G, pos=pos, node_size=10,node_color=Y, width = 0.1)
         plt.show()

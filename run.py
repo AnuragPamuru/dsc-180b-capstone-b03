@@ -30,7 +30,7 @@ def main():
                         help='data set type (default data_voting )')
     parser.add_argument('--output_path', type=str, default=local_output,
                         help='path for the output json file')
-    parser.add_argument('--agg_func', type=str, default='MEAN', choices=['MEAN', 'MAX'],
+    parser.add_argument('--agg_func', type=str, default='MEAN', choices=['MEAN'],
                         help='aggregate functions used in graphsage dafault is mean')
     parser.add_argument('--num_neigh', type=int, default=10,
                         help='Number of neighbors used in graphsage default is 10')
@@ -64,7 +64,7 @@ def main():
                 model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size, F=79)
                 hist = model.train_epoch(epochs=args.epochs, lr=args.lr)
             if args.model == 'graphsage':
-                model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size)
+                model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size, F=79)
                 hist = model.train_epoch(epochs = args.epochs, lr=args.lr)
         elif args.dataset == "data_voting_senti":
             loader = data_loader("data/voting_features.csv","data/tweets.csv", "data/edges.csv")
@@ -73,7 +73,7 @@ def main():
                 model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size, F=1079)
                 hist = model.train_epoch(epochs=args.epochs, lr=args.lr)
             if args.model == 'graphsage':
-                model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size)
+                model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size, F=1079)
                 hist = model.train_epoch(epochs = args.epochs, lr=args.lr)
         elif args.dataset == "data_115":
             loader = data_loader("data/voting_feature_115th_final.csv", "data/edges.csv")
@@ -82,7 +82,7 @@ def main():
                 model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size, F=39)
                 hist = model.train_epoch(epochs=args.epochs, lr=args.lr)
             if args.model == 'graphsage':
-                model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size)
+                model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size, F=39)
                 hist = model.train_epoch(epochs = args.epochs, lr=args.lr)
     with open(args.output_path, 'w') as f:
             json.dump(hist, f)
@@ -90,4 +90,4 @@ def main():
 if __name__ == '__main__':
     main()
     # Examples:
-    # python run.py --model graph --dataset data1
+    # python run.py --model graph --dataset data_voting
