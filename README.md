@@ -22,6 +22,7 @@ We implement the GCN and GraphSage models as our main models for training and co
   - test: The parameter for running test data on models.
 
 - some examples for using the project:
+  - python run.py
   - python run.py --test
   - python run.py --n_GCN
   - python run.py --dataset data_voting

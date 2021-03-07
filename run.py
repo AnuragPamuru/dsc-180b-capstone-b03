@@ -1,7 +1,7 @@
 import json
 import argparse
-from src.data_loader import data_loader
-from src.GCN_model import n_hidden_GCN
+from src.data.data_loader import data_loader
+from src.models.GCN_model import n_hidden_GCN
 import pandas as pd
 import numpy as np
 import networkx as nx
