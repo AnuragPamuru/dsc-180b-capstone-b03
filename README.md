@@ -8,9 +8,9 @@ We implement the GCN and GraphSage models as our main models for training and co
 
 - parameters:
   - model: The choice of models. We only implement the GCN and GraphSage. 
-  - dataset: The choice of datasets. There are multiple datasets, including data_voting, data_voting_senti, data_115. The differences between these datasets are features. The adjacency matrix of each dataset stays the same.
+  - dataset: The choice of datasets. There are multiple datasets, including data_voting, data_voting_senti. The differences between these datasets are features. The adjacency matrix of each dataset stays the same.
   - output_path: The output of project will be stored in json file.
-  - agg_func: The choice of aggregated function in the graphSage model. We only support either MEAN or MAX. The default is MEAN.
+  - agg_func: The choice of aggregated function in the graphSage model. We only support MEAN aggregator. The default is MEAN.
   - num_neigh: The number of neighbors in the graphSage model. The default is 10.
   - n: The number of hidden layers in the GCN model. This can be tuned to reach higher accuracy.
   - self_weight: The weight of self-loop in the GCN model.

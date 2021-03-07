@@ -27,7 +27,7 @@ def main():
     parser = argparse.ArgumentParser(description='Running model')
     parser.add_argument('--model', type=str, default='n_GCN', choices=['n_GCN', 'graphsage'],
                         help='model to use for training (default: 2layerGNN)')
-    parser.add_argument('--dataset', type=str, default='data_voting', choices=['data_voting', 'data_voting_senti', 'data_115'],
+    parser.add_argument('--dataset', type=str, default='data_voting', choices=['data_voting', 'data_voting_senti'],
                         help='data set type (default data_voting )')
     parser.add_argument('--output_path', type=str, default=local_output,
                         help='path for the output json file')
@@ -75,15 +75,6 @@ def main():
                 hist = model.train_epoch(epochs=args.epochs, lr=args.lr)
             if args.model == 'graphsage':
                 model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size, F=1079)
-                hist = model.train_epoch(epochs = args.epochs, lr=args.lr)
-        elif args.dataset == "data_115":
-            loader = data_loader("data/voting_feature_115th_final.csv", "data/edges.csv")
-            X, y, A = loader.get_data()
-            if args.model == 'n_GCN':
-                model = n_hidden_GCN(A,X,y, N=args.n, hidden_neurons=args.hidden_neurons, self_weight=args.self_weight, val_size=args.val_size, F=39)
-                hist = model.train_epoch(epochs=args.epochs, lr=args.lr)
-            if args.model == 'graphsage':
-                model = GraphSage(A, X, y, device=args.device, agg_func=args.agg_func, hidden_neuron=args.hidden_neurons, len_walk=args.len_walk, num_neigh=args.num_neigh, val_size=args.val_size, F=39)
                 hist = model.train_epoch(epochs = args.epochs, lr=args.lr)
     with open(args.output_path, 'w') as f:
             json.dump(hist, f)
