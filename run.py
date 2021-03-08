@@ -27,7 +27,7 @@ def main():
     parser = argparse.ArgumentParser(description='Running model')
     parser.add_argument('--model', type=str, default='n_GCN', choices=['n_GCN', 'graphsage'],
                         help='model to use for training (default: 2layerGNN)')
-    parser.add_argument('--dataset', type=str, default='data_voting', choices=['data_voting', 'data_voting_senti'],
+    parser.add_argument('--dataset', type=str, default='data_voting_senti', choices=['data_voting', 'data_voting_senti'],
                         help='data set type (default data_voting )')
     parser.add_argument('--output_path', type=str, default=local_output,
                         help='path for the output json file')

@@ -20,7 +20,7 @@ class data_loader_sen():
         #adjacency matrix
         adj = self.get_adj(edges, directed)    
         self.labels = np.array(features['79'])
-        voting_feature = list(np.array(features.iloc[:, 1:features.shape[1]-1]))
+        voting_feature = list(np.array(features.iloc[:, :features.shape[1]-1]))
         sen_feature = self.get_feature(tweets)
 
         for i in range(len(voting_feature)):
