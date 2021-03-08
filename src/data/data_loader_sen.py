@@ -19,6 +19,7 @@ class data_loader_sen():
 
         #adjacency matrix
         adj = self.get_adj(edges, directed)    
+        
         self.labels = np.array(features['79'])
         voting_feature = list(np.array(features.iloc[:, :features.shape[1]-1]))
         sen_feature = self.get_feature(tweets)
@@ -51,7 +52,7 @@ class data_loader_sen():
             
         return adj
     def get_feature(self, tweets):
-            #generate top 1000 popular words
+        #generate top 1000 popular words
         tweets = tweets.groupby("Senator Name").agg({"Tweets": sum})
         total_words = defaultdict(int)
         stopWords = set(stopwords.words('english'))
