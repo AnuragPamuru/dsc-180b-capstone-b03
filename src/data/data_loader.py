@@ -11,7 +11,7 @@ class data_loader():
         #adjacency matrix
         adj = self.get_adj(edges, directed)    
         self.labels = np.array(features['79']) 
-        self.features = np.array(features.iloc[:, 1:features.shape[1]-1])
+        self.features = np.array(features.iloc[:, :features.shape[1]-1])
         # self.features = torch.FloatTensor(self.features)
 
         self.A = adj
