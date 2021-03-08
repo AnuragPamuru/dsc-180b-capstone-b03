@@ -51,7 +51,7 @@ class data_loader_sen():
             
         return adj
     def get_feature(self, tweets):
-            #generate top 1000 popular words
+        #generate top 1000 popular words
         tweets = tweets.groupby("Senator Name").agg({"Tweets": sum})
         total_words = defaultdict(int)
         stopWords = set(stopwords.words('english'))
